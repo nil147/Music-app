@@ -1,0 +1,36 @@
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.music-top {
+
+}
+
+.music-top > h2 {
+    border-radius: 40px;
+    font-weight: 400;
+    text-align: center;
+    color: #09c2c7;
+    background-color: #d6f3f5;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    
+}
+
+.music-top > h1 {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    
+}

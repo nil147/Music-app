@@ -1,0 +1,40 @@
+.test {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  .test::-webkit-scrollbar {
+    display: none;
+  }
+
+  .test-info {
+    text-align: center;
+    margin: 5px 8px;
+    object-fit: contain;
+    width: 100%;
+    box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.4);
+    transition: transform 450ms !important;
+    border-radius: 15px;
+    cursor: pointer;
+  background-image: url();
+  }
+
+  .test-info:hover {
+    transform: scale(1.08) !important;
+}
+
+.test-image {
+    border-radius: 15px;
+}
+
+.test-info > p {
+    margin-top: 15px;
+}
+
+.test-image {
+  object-fit: contain;
+}

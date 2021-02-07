@@ -1,0 +1,65 @@
+@media (min-width: 5px) and (max-width: 836px) {
+    .footer {
+        display: flex;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 100px;
+    
+    }
+    
+    .footer-center > a {
+        margin-left: 10px;
+        margin-right: 2px;
+        font-weight: 200;
+    }
+    
+    .footer-center > a:hover {
+        cursor: pointer;
+        color: #1b5cca;
+    }
+    
+    .footer-logo > img {
+        height: 100px;
+        padding-left: 30%;
+        display: none;
+    }
+    
+    .footer-right > p {
+        font-weight: 100;
+        padding-right: 5%;
+    }
+}
+
+
+
+
+@media (min-width: 836px) and (max-width: 9999px) {
+.footer {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-center > a {
+    margin-left: 20px;
+    font-weight: 200;
+}
+
+.footer-center > a:hover {
+    cursor: pointer;
+    color: #1b5cca;
+}
+
+.footer-logo > img {
+    height: 100px;
+    padding-left: 30%;
+}
+
+.footer-right > p {
+    font-weight: 100;
+    padding-right: 30%;
+}
+}

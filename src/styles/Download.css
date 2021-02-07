@@ -1,0 +1,42 @@
+.download {
+    text-align: center;
+    color: lightgray;
+    box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.3);
+
+}
+
+.download-info > p {
+    font-weight: 300;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.download-info > h1 {
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.download-info > h3 {
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.download-button {
+    padding-top: 30px;
+}
+
+.download-button > button {
+    margin: 10px 10px;
+    background-color: #c3cfe2;
+    border-radius: 50px;
+    text-transform: none;
+    padding: 8px 15px;
+}
+.download-button > button:hover {
+
+    background-color: lightgray;
+}
+.MuiSvgIcon-root {
+
+
+}
