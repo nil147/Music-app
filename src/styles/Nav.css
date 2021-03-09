@@ -11,7 +11,7 @@
     background-color: white;
     padding-top: 13px;
     box-shadow: 0px -2px 5px 1px;
-    z-index: 1;
+    z-index: 99999 !important;
   }
   
   .nav-left {

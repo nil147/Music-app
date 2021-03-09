@@ -3,6 +3,7 @@
 }
 
 .sell-top {
+    
     text-align: center;
     color: white;
     margin-bottom: 10px;
@@ -27,6 +28,5 @@
 }
 
 .sell-order {
-    display: flex;
-    justify-content: center;
+    
 }
